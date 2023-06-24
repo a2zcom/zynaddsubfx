@@ -461,6 +461,7 @@ if(FltkGui)
 	
 	set(GUI_LIBRARIES zynaddsubfx_gui ${FLTK_LIBRARIES} ${OPENGL_LIBRARIES})
 
+	add_definitions(-DPLUGINVERSION)
 	add_definitions(-DFLTK_GUI)
 	message(STATUS "Will build FLTK gui")
 
